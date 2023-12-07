@@ -1,4 +1,4 @@
-FROM python:3.6-jessie
+FROM python:3.8-slim-buster
 
 RUN apt-get update
 RUN apt-get install software-properties-common less vim -y
